@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-redshift-data`](https://www.npmjs.com/package/@aws-sdk/client-redshift-data/v/3.1125.0).
+[`@aws-sdk/client-redshift-data`](https://www.npmjs.com/package/@aws-sdk/client-redshift-data/v/3.1126.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-redshift-data - [https://cloud-sdk-builds.github.io/?sdk=client-redshift-data](https://cloud-sdk-builds.github.io/?sdk=client-redshift-data)
-- @aws-sdk/client-redshift-data v3.1125.0 - [https://cloud-sdk-builds.github.io/?sdk=client-redshift-data&version=3.1125.0](https://cloud-sdk-builds.github.io/?sdk=client-redshift-data&version=3.1125.0)
+- @aws-sdk/client-redshift-data v3.1126.0 - [https://cloud-sdk-builds.github.io/?sdk=client-redshift-data&version=3.1126.0](https://cloud-sdk-builds.github.io/?sdk=client-redshift-data&version=3.1126.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1125.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1126.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IQAlP9wQXPsHwEFAG6lEGM0kNjAi2YV6H+k/c3jDQJqPt74htwbZ1bfvWg92P127
+sha384-Lf8SSM2hLOnofbwbSfCKR8DMrxuyrG9ty+7NHIORLR7+zofhCXW790BMCVZogHjF
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-redshift-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1125.0/index.min.mjs"
+            "@aws-sdk/client-redshift-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1126.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1125.0/index.min.mjs": "sha384-IQAlP9wQXPsHwEFAG6lEGM0kNjAi2YV6H+k/c3jDQJqPt74htwbZ1bfvWg92P127"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1126.0/index.min.mjs": "sha384-Lf8SSM2hLOnofbwbSfCKR8DMrxuyrG9ty+7NHIORLR7+zofhCXW790BMCVZogHjF"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-redshift-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1125.0/index.min.mjs"
+                        "@aws-sdk/client-redshift-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1126.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1125.0/index.min.mjs": "sha384-IQAlP9wQXPsHwEFAG6lEGM0kNjAi2YV6H+k/c3jDQJqPt74htwbZ1bfvWg92P127"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-data@3.1126.0/index.min.mjs": "sha384-Lf8SSM2hLOnofbwbSfCKR8DMrxuyrG9ty+7NHIORLR7+zofhCXW790BMCVZogHjF"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1125.0`)
+* Always pin to a specific version (`@3.1126.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-redshift-data/blob/refs/tags/3.1125.0/LICENSE
+https://github.com/cloud-sdk-builds/client-redshift-data/blob/refs/tags/3.1126.0/LICENSE
 ```
 
 ---
